@@ -1,0 +1,15 @@
+body{
+   
+}
+.container{
+    height: 600px;
+    width: 500px;
+    align-items: center;
+    border: 2px solid purple;
+    margin:0 auto;
+}
+.container img{
+    height: 50%;
+    width:100% ;
+
+}
