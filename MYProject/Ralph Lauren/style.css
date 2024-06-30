@@ -1,0 +1,165 @@
+body{
+    background-color:#2a2a2a;
+    font-family: 'Noto Sans',sans-serif;
+    /* width: 80%; */
+   align-items: center;
+   color: white;
+    
+  
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+h2{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    opacity: 0.7;
+}
+.middle a{
+    font-weight: 100;
+}
+.right a{
+    font-weight: 100;
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+}
+.main1 .image1 img{
+    height: 500px;
+    margin: 10px;
+}
+.main1 .text h1{
+    color: white;
+   font-size:70px;
+    margin: 10px;
+}
+.main1 .image2 img{
+    height: 300px;
+    margin: 10px;
+    margin-top: 80%;
+  align-items: flex-end;   
+}
+hr{
+    color: white;
+    height: auto;
+    width: 100%;
+}
+a:hover{
+    opacity: 1;
+}
+.main2{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    font-weight: normal;
+    opacity: 0.6;
+    font-size: 20px;
+}
+.small-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.small-img img{
+    height: 300px;
+    margin: 20px;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+span a{
+    color: yellow;
+    opacity: 0.4;
+}
+span a:hover{
+    opacity: 0.6;
+}
+/* .row {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} */
+.row h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.row a{
+    color: white;
+    opacity: 0.6;
+}
+.row a:hover{
+    opacity: 1;
+}
+
+i{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    align-items: center;
+}
+.row span{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.main3{
+    color: black;
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    background-color: #fff; 
+}
+.main3 .pic img{
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+}
+.main3 .text1 h1{
+    z-index: 10;
+}
+.dis span a{
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 1;
+    align-items: baseline;
+
+}
+.div-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.footer .sub span{
+    color: rgb(229, 219, 19);
+}
+
+    
+

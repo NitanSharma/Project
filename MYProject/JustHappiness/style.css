@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#1b1240;
+    color: #fff;
+    font-family: 'Noto Sans',sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    margin-left: 20px;
+}
+.logo:hover{
+    font-family: "Playwrite NZ", cursive;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.side-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:1.2rem;
+    margin-right: 20px;
+}
+button:hover{
+    color:skyblue ;
+    transform:scale(1.1);
+    transition: transform 2s ;
+   
+}
+button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#center{
+    color:skyblue ;
+    font-family:  "Playwrite NZ", cursive;
+    font-size: 80px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+span{
+    font-family:'Noto Sans',sans-serif;    
+}
+
