@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: #ddd;
+    height: 100vh;
+   overflow: hidden;
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+}
+
+span{
+    font-size: 100px;
+    margin-left: 5px;
+    display: flex;
+    align-items: end;
+    height: 100%;
+    font-family: inherit;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   transition: 0.4s ease;
+}
+.divs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    transition: 0.4s ease;  
+}
+.div{
+    height: 600px;
+    width: 95%;
+   margin: 2px;
+   border-radius: 20px;
+   transition: 0.4s ease;
+}
+.div1{   
+    background-color:#001a3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{   
+ background-color:#227bff;
+}
+.div2 hr{
+    width: 10px;
+    height: 10px;
+    /* color: #fff; */
+    color: black;
+    position: relative;
+    top: 30px;
+    left: 700px;
+    transform: scale(2);
+    
+}
+
+.btn{   
+    display: flex;
+    height: 100%;
+    width: 100%;   
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn1{
+    font-size: 30px;
+    background-color: #cadf00;
+    height:90px ;
+    width: 750px;
+    border-radius: 50px;
+    border: none;
+}
+.btn1:hover{
+    background-color: #f64791;
+    transition: all 0.3ms ease-in-out;
+}
+.btn2{
+    font-size: 30px;
+    color: #fff;
+    height:90px ;
+    width: 750px;
+    border-radius: 50px;
+    background-color: #001a3e;
+    border: none;
+}
+.btn2:hover{
+    background-color: #227bff;
+    transition: all 0.3ms ease-in-out;
+}
