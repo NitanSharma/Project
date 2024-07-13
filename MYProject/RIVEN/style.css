@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+.container{
+    display: flex;
+    height: 100%;   
+}
+.left{
+ height: 100%;
+ width: 50%;
+ position: relative;
+}
+.head{    
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 30px;
+}
+.head span:hover{
+    opacity: 0.7;
+}
+.text{
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left:200px;
+}
+#RIVEN{
+    font-size: 1.5rem;
+}
+h1{
+   font-size: 4.5rem;
+    margin: 0;
+  
+}
+h5{
+    margin: 10px;    
+}
+.right{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+video{
+    height: 800px;
+    width: 800px;
+}
+.image{    
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 700px;
+}
+.content{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+}
+button{
+    background-color: transparent;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: 2px solid #ccc;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    transform: scale(0.9);
+}
+.content1{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content1 img{
+    width: 50%;
+}
+.textt{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pic{
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    
+}
